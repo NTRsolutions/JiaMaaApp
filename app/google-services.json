@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "609491180729",
+    "firebase_url": "https://jaimaaapp.firebaseio.com",
+    "project_id": "jaimaaapp",
+    "storage_bucket": "jaimaaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609491180729:android:50ef45ef873f8893",
+        "android_client_info": {
+          "package_name": "com.example.dell.jaimaaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609491180729-n4cpt2eqg37cei0lj8o0qao1ko1cdlpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.jaimaaapp",
+            "certificate_hash": "053d72da5eabb545855c49de2523ac6aca6c5b86"
+          }
+        },
+        {
+          "client_id": "609491180729-q72g5s44asvoqqrmgcrbeaej62mudhg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKLU8fejBjaU0Jct-xXx1-NX7L5ZoiSio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609491180729-q72g5s44asvoqqrmgcrbeaej62mudhg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

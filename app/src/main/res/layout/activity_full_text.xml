@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FullTextActivity">
+
+    <include
+        android:id="@+id/full_text_toolbar"
+        layout="@layout/custom_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/full_text_toolbar">
+
+            <LinearLayout
+                android:padding="8dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/satsang_text_2"
+                    android:textColor="@color/dark_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/satsang_text_3"
+                    android:textColor="@color/dark_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:text="@string/satsang_text_4"
+                    android:textColor="@color/dark_black"
+                    android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView26"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_5"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView25"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_6"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView24"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_7"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView23"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_8"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView22"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_9"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView21"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_10"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView20"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_11"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView19"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_12"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView18"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_13"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView17"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_14"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView16"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_15"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView15"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_16"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView14"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_17"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+
+                 <TextView
+                     android:id="@+id/textView"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="8dp"
+                     android:layout_weight="1"
+                     android:text="@string/satsang_text_18"
+                     android:textColor="@color/dark_black"
+                     android:textSize="15sp" />
+            </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>
