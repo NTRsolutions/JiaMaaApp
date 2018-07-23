@@ -71,7 +71,7 @@ public class MeetingOneFragment extends Fragment {
 
         firebaseFirestore = FirebaseFirestore.getInstance();
 
-            firebaseFirestore.collection(session).whereEqualTo("meeting", "1").addSnapshotListener(getActivity(), new EventListener<QuerySnapshot>() {
+            firebaseFirestore.collection(session).whereEqualTo("meeting", "1").addSnapshotListener(new EventListener<QuerySnapshot>() {
                 @Override
                 public void onEvent(QuerySnapshot documentSnapshots, FirebaseFirestoreException e) {
 
@@ -101,7 +101,7 @@ public class MeetingOneFragment extends Fragment {
 
         List<Results> listArray;
 
-        public MyAdapter(List<Results> listArray) {
+        private MyAdapter(List<Results> listArray) {
             this.listArray = listArray;
         }
 
@@ -124,7 +124,7 @@ public class MeetingOneFragment extends Fragment {
             holder.chequeText.setText(listArray.get(position).getCheque());
         }
 
-        public class MyViewHolder extends RecyclerView.ViewHolder{
+        public  class MyViewHolder extends RecyclerView.ViewHolder{
 
             View mView;
             TextView nameText;
@@ -132,7 +132,7 @@ public class MeetingOneFragment extends Fragment {
             TextView chequeText;
             TextView fathernameText;
 
-            public MyViewHolder(View itemView) {
+            private MyViewHolder(View itemView) {
                 super(itemView);
                 mView = itemView;
 
