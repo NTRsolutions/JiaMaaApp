@@ -128,11 +128,23 @@
     <string name="donate_text_10">jiamaamemorialtrust@gmail.com</string>
     <string name="donate_text_9">All donations made to us is exempted vide order of commissioner of income Tax –I, Agra vide order letter No–CIT/Tech/Agra/80G–R/J8/2009–10/3288 dated 12/11/2009 under section 80 (G) of Income Tax Act 1961.</string>
     <string name="meeting_text_1">The next meeting of the trust will be held on 3rd September, 2018 at Tundla on the auspicious occasion of Tundla Bhandara of Ramashram Satsang Mathura.</string>
-    <string name="meeting_text_2">Application forms can be had from the trust office free of cost by sending complete address through SMS on mobile no : (+91) 8791487080 or you can write to our office:</string>
+    <string name="meeting_text_2">Application forms can be collected from the trust office free of cost by sending complete address through SMS on mobile no : (+91) 8791487080 or you can write to our office:</string>
     <string name="meeting_text_3">Secretary-</string>
     <string name="meeting_text_4">JIA MAA MEMORIAL TRUST</string>
     <string name="meeting_text_5">SADHAN PRAKASHAN</string>
     <string name="meeting_text_6">DAMPIER NAGAR, MATHURA, U.P - 281001.</string>
     <string name="meeting_text_7">Incomplete forms will not be accepted, therefore make sure to complete your forms in all respect including all enclosures.</string>
+    <string name="email_text">For more information visit:</string>
+    <string name="email">www.sadhan.in</string>
+    <string name="address_text">Send Your Bank Drafts/Account Payee cheques at the following Address</string>
+    <string name="address_line_1">Sadhan Prakashan</string>
+    <string name="address_line_2">Dampier Nagar,</string>
+    <string name="address_line_3">Mathura (U.P) - 281001</string>
+    <string name="address_line_4">India</string>
+    <string name="facebook">Visit our facebook page</string>
+    <string name="social">Social</string>
+    <string name="visit_our_website">Visit our website</string>
+    <string name="rate_this_app">Rate this app</string>
+
 
 </resources>

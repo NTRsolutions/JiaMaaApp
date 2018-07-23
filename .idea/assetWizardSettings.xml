@@ -35,11 +35,11 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="backgroundLayerName" value="icon_rnd_donate" />
-                                      <entry key="foregroundImage" value="G:\jiamaa app folder\icons\icons8-receive-cash-90.png" />
-                                      <entry key="foregroundLayerName" value="icon_donate" />
+                                      <entry key="backgroundLayerName" value="icon_rnd_fb" />
+                                      <entry key="foregroundImage" value="G:\jiamaa app folder\icons\baseline-calendar_today-24px.svg" />
+                                      <entry key="foregroundLayerName" value="icon_fb" />
                                       <entry key="legacyIconShape" value="NONE" />
-                                      <entry key="outputName" value="donate_icon" />
+                                      <entry key="outputName" value="fb_icon" />
                                       <entry key="previewDensity" value="MEDIUM" />
                                       <entry key="showSafeZone" value="false" />
                                       <entry key="webIconShape" value="NONE" />
@@ -58,7 +58,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="ff7034" />
+                                                <entry key="color" value="ffffff" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -69,7 +69,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_arrow_drop_down_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/maps/ic_rate_review_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -80,12 +80,17 @@
                                   <option name="values">
                                     <map>
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="outputName" value="dropdown_icon" />
+                                      <entry key="outputName" value="rating_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>

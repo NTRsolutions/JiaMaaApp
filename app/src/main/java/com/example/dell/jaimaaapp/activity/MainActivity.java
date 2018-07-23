@@ -80,11 +80,10 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_new:
                 break;
-
-            case R.id.nav_notifications:
-                break;
             case R.id.nav_media:
                 fragment = new MediaFragment();
+                break;
+            case R.id.nav_about:
                 break;
                 }
 

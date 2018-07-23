@@ -3,6 +3,8 @@ package com.example.dell.jaimaaapp.activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
 import com.example.dell.jaimaaapp.R;
 

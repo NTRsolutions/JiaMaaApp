@@ -87,7 +87,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-smallcaps"
                     android:text="@string/founder_name_1"
-                    android:textColor="@color/dark_black"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold" />
 
                 <TextView
@@ -97,7 +97,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-smallcaps"
                     android:text="@string/founder_name_2"
-                    android:textColor="@color/dark_black"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold" />
 
             </LinearLayout>
